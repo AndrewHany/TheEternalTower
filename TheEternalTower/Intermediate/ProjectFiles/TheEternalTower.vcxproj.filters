@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheEternalTower.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{82CE8BEF-ACD8-4B55-899A-64EC391D4148}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheEternalTower.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheEternalTowerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7E56071F-7FAC-45F8-8A14-903FC304A9EB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheEternalTower">
+      <UniqueIdentifier>{8B146AF2-B01C-43A2-9729-09E4DD18BADC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheEternalTower\TheEternalTower.Build.cs">
+      <Filter>Source\TheEternalTower</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheEternalTower\TheEternalTower.cpp">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\TheEternalTower.h">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\TheEternalTowerCharacter.cpp">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\TheEternalTowerCharacter.h">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\TheEternalTowerGameMode.cpp">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\TheEternalTowerGameMode.h">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\TheEternalTowerPlayerController.cpp">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\TheEternalTowerPlayerController.h">
+      <Filter>Source\TheEternalTower</Filter>
+    </ClInclude>
+    <Filter Include="Source\TheEternalTower\Inventory">
+      <UniqueIdentifier>{900B8E9D-58DD-4A2D-A88E-CF84EE352F85}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheEternalTower\Inventory\ConsumableItem.cpp">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Inventory\ConsumableItem.h">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\Inventory\EquippableItem.cpp">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Inventory\EquippableItem.h">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\Inventory\Inventory.cpp">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Inventory\Inventory.h">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\Inventory\Item.cpp">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Inventory\Item.h">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\TheEternalTower\Structs">
+      <UniqueIdentifier>{272F0AEC-5339-4084-93C3-225D4765E1E6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TheEternalTower\Structs\AttributeManipulation.h">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\Structs\Currency.cpp">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Structs\Currency.h">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheEternalTower\Structs\LevelUp.cpp">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheEternalTower\Structs\LevelUp.h">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TheEternalTower\Structs\EnhancementData.h">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheEternalTower\Inventory\BuffConsumable.h">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TheEternalTower\Party System\Party.h">
+      <Filter>Source\TheEternalTower\Party System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TheEternalTower\Structs\EnhancementData.cpp">
+      <Filter>Source\TheEternalTower\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheEternalTower\Inventory\BuffConsumable.cpp">
+      <Filter>Source\TheEternalTower\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TheEternalTower\Party System\Party.cpp">
+      <Filter>Source\TheEternalTower\Party System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TheEternalTower\Party System">
+      <UniqueIdentifier>{a53b197a-1bd1-400a-80ae-2badf2929f6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

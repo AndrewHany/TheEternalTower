@@ -1,0 +1,10 @@
+/TheEternalTower/Binaries
+/TheEternalTower/Saved
+/TheEternalTower/Intermediate/AssetRegistryCache
+/TheEternalTower/Intermediate/CachedAssetRegistry.bin
+/TheEternalTower/Intermediate/ReimportCache
+/TheEternalTower/Intermediate/Build
+/TheEternalTower/.vs
+*.sdf
+*.pdb
+*.opendb
